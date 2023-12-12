@@ -1,0 +1,207 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+main{
+    background: linear-gradient(cadetblue, whitesmoke);
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#box1{
+    background: linear-gradient(whitesmoke, cadetblue);
+    height: 45%;
+    width: 35%;
+    border-radius: 7px;
+    padding: 2% 2% 2% 2%;
+}
+
+#name, #age, #gender{
+    width: 98%;
+    height: 10%;
+    border-radius: 5px;
+    border: none;
+    padding-left: 2%;
+    outline: none;
+    border: solid 1px #000;
+}
+
+#login{
+    width: 100%;
+    height: 10%;
+    border-radius: 5px;
+    border: none;
+    padding-left: 2%;
+    outline: none;
+}
+
+button{
+    background-color: cadetblue;
+    color: #fff;
+}
+
+#box2, #box3, #box4, #box5, #box6, #box7, #box8, #box9, #box10, #box11, #box12{
+    background: linear-gradient(whitesmoke, cadetblue);
+    height: 45%;
+    width: 35%;
+    border-radius: 7px;
+    padding: 2% 2% 2% 3%;
+    display: none;
+    /* cursor: pointer; */
+}
+
+#ans, #ans1, #ans2, #ans3, #ans4, #ans5, #ans6, #ans7, #ans8, #ans9{
+    background: none;
+    width: 100%;
+    height: 10%;
+    border-radius: 5px;
+    border: none;
+    padding-left: 2%;
+    outline: none;
+    border: solid 1px teal;
+    margin-left: -4%;
+}
+
+#next1{
+    width: 102%;
+    height: 10%;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    margin-left: -2%;
+}
+
+#q1{
+    margin-left: -4%;
+}
+
+li{
+    cursor: pointer;
+}
+
+#prev1, #prev2, #prev3, #prev4, #prev5, #prev6, #prev7, #prev8, #prev9{
+    width: 45%;
+    height: 10%;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    margin-left: -2%;
+    margin-right: 9%;
+    cursor: pointer;
+}
+
+#next2, #next3, #next4, #next5, #next6, #next7, #next8, #next9, #next10{
+    width: 45%;
+    height: 10%;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+#next10{
+    background-color: teal;
+}
+
+#box12{
+    text-align: center;
+    
+}
+
+@media only screen and (max-width: 295px) {
+    #box2, #box3, #box4, #box5, #box6, #box7, #box8, #box9, #box10, #box11, #box12{
+        height: fit-content;
+        width: fit-content;
+        padding: 2% 2% 2% 7%;
+    }
+
+    #box1{
+        height: fit-content;
+        width: fit-content;
+        padding: 2% 2% 2% 3%;
+    }
+}
+
+@media only screen and (min-width: 295px) {
+    #box2, #box3, #box4, #box5, #box6, #box7, #box8, #box9, #box10, #box11, #box12{
+        height: fit-content;
+        width: fit-content;
+        padding: 2% 2% 2% 5%;
+    }
+    
+    #box1{
+        height: fit-content;
+        width: fit-content;
+        padding: 2% 2% 2% 3%;
+    }
+}
+
+@media only screen and (min-width: 576px){
+    #box2, #box3, #box4, #box5, #box6, #box7, #box8, #box9, #box10, #box11, #box12{
+        height: fit-content;
+        width: fit-content;
+        padding: 2% 2% 2% 5%;
+        /* padding-left: 3%; */
+        /* padding-right: 2%; */
+        
+    }
+    
+    #box1{
+        height: fit-content;
+        width: fit-content;
+        padding: 2% 2% 2% 3%;
+    }
+/* 
+    #ans, #ans1, #ans2, #ans3, #ans4, #ans5, #ans6, #ans7, #ans8, #ans9{
+        margin-top: 1em;
+        margin-bottom: 1em;
+    } */
+}
+
+@media only screen and (min-width: 768px){
+    #box2, #box3, #box4, #box5, #box6, #box7, #box8, #box9, #box10, #box11, #box12{
+    height: 65%;
+    width: 45%;
+    }
+
+    #box1{
+        background: linear-gradient(whitesmoke, cadetblue);
+        height: 45%;
+        width: 35%;
+        border-radius: 7px;
+        padding: 2% 2% 2% 2%;
+    }
+}
+
+@media only screen and (min-width: 960px){
+    #box2, #box3, #box4, #box5, #box6, #box7, #box8, #box9, #box10, #box11, #box12{
+        height: 60%;
+        width: 40%;
+    }
+    #box1{
+        background: linear-gradient(whitesmoke, cadetblue);
+        height: 45%;
+        width: 35%;
+        border-radius: 7px;
+        padding: 2% 2% 2% 2%;
+    }
+}
+
+@media only screen and (min-width: 1020px){
+    #box2, #box3, #box4, #box5, #box6, #box7, #box8, #box9, #box10, #box11, #box12{
+    height: 50%;
+    width: 40%;
+    }
+    #box1{
+        background: linear-gradient(whitesmoke, cadetblue);
+        height: 45%;
+        width: 35%;
+        border-radius: 7px;
+        padding: 2% 2% 2% 2%;
+    }
+}
